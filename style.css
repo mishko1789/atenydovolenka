@@ -1,0 +1,119 @@
+.header{
+    background-color: rgb(32, 205, 244);
+    max-width: 100%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.nazov {
+flex: 1;
+}
+.popis{
+    flex: 1;
+}
+.cena{
+    flex: 1;
+}
+.container{
+    text-align: left;
+    justify-content: center;
+}
+
+.columns-description {
+    float: left;
+    width: 30%;
+    margin: 20px;
+    box-shadow: 0 0 1px 1px rgb(129, 121, 121);
+    border-radius: 20px;
+    padding-left: 20px;
+    
+  }
+  .columns{
+    float: left;
+    width: 33.33%;
+    
+
+  }
+
+   
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 20px;
+  }
+
+
+.gallery{
+    width: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.gallery img{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+.discription {
+    align-content: center;
+    text-align: left;
+}
+.Table
+{
+    display: table;
+    margin-left: 700px;
+}
+.Title
+{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.Heading
+{
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+.Row
+{
+    display: table-row;
+}
+.Cell
+{
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer{
+    width: auto;
+    height: 100vh;
+    margin: 50px;
+    margin-top: 100px;
+    background-image: url(mapa.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 760px) {
+.columns-description {
+    width: 70%;
+}   
+  .gallery img{
+      width:100%;
+
+  }
+  .gallery{
+  }
+ 
+
+}
